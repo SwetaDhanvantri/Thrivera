@@ -1,0 +1,235 @@
+body, html{
+    background-color: #f8f9fa;
+    color: rgb(54, 52, 52);
+}
+section{
+    margin-top: 3%;
+}
+.hr-main-section{
+    width: 90%;
+    margin-left: 5%;
+}
+.chartsh .c3-legend-item-tile, .c3-xgrid-focus, .c3-ygrid, .c3-event-rect, .c3-bars path{
+display: none;
+}
+.chartsh .c3-legend-item{
+    display: none;
+    }
+    .hr-icon1{
+       color: blue;
+    }
+    .hr-icon2{
+        color:rgb(195, 68, 255);
+    }
+   
+    .hr-icon4{
+      color: #fb8500;
+    }
+    .hr-icon5{
+    color: rgb(94, 217, 76);
+    }
+    .hr-icon6{
+     color: rgb(247, 45, 102);
+    }
+    .states-list{
+        height: 210px;
+        overflow-y: scroll;
+    }
+    .table-hr th{
+        background-color: rgba(0, 0, 0, 0.03);
+        color: #000;
+        padding: 8px;
+    }
+    /* counter */
+    .bg-c-green{
+        background: #11c15b;
+    }
+    .bg-green{
+        background-color: #32ed80;
+    }
+    .bg-blue{
+        background-color: #91baff;
+    }
+    .bg-c-blue{
+        background-color: #448aff;
+    }
+    .fa-trophy{
+        font-size: 24px;
+    }
+    .fa-star{
+        font-size: 24px;
+    }
+    .count-cards {
+        width:140px;
+        height: 78px;
+        background-color: #fff;
+        border-radius:8px;
+        margin-top:2px;
+        margin-bottom:9px;
+        box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+    }
+    .dh_p {
+        color: #0dcd94;
+    }
+    .dh_p p {
+        color: #0dcd94 !important;
+    }
+    
+    .dh_hd {
+        color: #fbc518;
+    }
+    .dh_hd p{
+        color: #fbc518 !important;
+    }
+    .dh_woff {
+        color: #f7284a;
+    }
+    .dh_woff p{
+        color: #f7284a !important;
+    }
+    .dh_leave {
+        color: #ef4eb8;
+    }
+        .dh_leave p {
+            color: #ef4eb8 !important;
+        }
+    
+    
+    .dh_a{
+        color: #fbc518;
+        font-weight: normal;
+    }
+    
+        .dh_a p {
+            color: #fbc518 !important;
+       
+            font-weight: normal;
+        }
+    
+       /* .dh_p {
+            color: #008000;
+            font-weight: normal;
+        }*/
+    
+    .dh_lwp {
+        color: #007bff;
+        font-weight: normal;
+    }
+    .dh_lwp p{
+        color: #007bff !important;
+        font-weight: normal;
+    }
+    
+    .dh_iamsafe {
+        color: #4454c3;
+        font-weight: normal;
+    }
+    .dh_iamsafe p{
+        color: #4454c3 !important;
+        font-weight: normal;
+    }
+    
+    .dh_holiday {
+        color: #c344ff;
+    }
+    .dh_holiday p{
+        color: #c344ff !important;
+    }
+    
+    .dh_loadingimg
+    {
+    
+    }
+    .dh_absentfrom3days {
+        color: #007bff;
+    
+    }
+    .lower-count {
+     /*   background-color: #fff;
+        box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);*/
+        padding: 2px;
+        border-radius:5px;
+    }
+        .lower-count .card-block {
+            padding: 4px 8px;
+            width:220px;
+            border-radius:8px;
+            background-color: #fff;
+            box-shadow: none;
+            margin-bottom:20px;
+            box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+        }
+        .lower-count .card{
+            box-shadow:none;
+            padding:0px;
+            margin:0px;
+        }
+    
+        
+    .bg-white{
+        background: #fff;
+        border-radius: 15px; 
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .bg-white .card-header{
+        background-color: rgba(0, 0, 0, 0.03);
+        color: #000;
+        font-size: 18px;
+        border-bottom: none;
+    }
+    table th{
+        padding: 2px;
+    }
+    .card-header{
+        background-color: #fff;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: none;
+    }
+    .hr .card{
+        border-radius: 15px; 
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .rl_hr .card{
+       border-radius: 15px; 
+    }
+    .strip1{
+        padding: 3px 5px;
+        background-color: #5c31d6;;
+        margin: 5px 0;
+        color: #fff;
+    }
+    .strip1 p{
+       
+        margin-bottom: 0px;
+    }
+    .strip3{
+        padding: 3px 5px;
+        background-color: #fe5957;
+        color: #fff;
+        margin: 5px 0;
+    }
+    .strip2{
+        padding: 3px 5px;
+        background-color: #4fcb8d;;
+        color: #fff;
+        margin: 5px 0;
+    }
+    .strip2 p{
+       
+        margin-bottom: 0px;
+    }
+    .strip3 p{
+       
+        margin-bottom: 0px;
+    }
+    .Challan .card{
+        height: 270px;
+    }
+
+    /*  date*/
+    .mydate{
+        cursor: pointer;
+    }
