@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Page 3</title>
+  <link rel="stylesheet" href="./assets/css/page1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<!---Icons css-->
+<link rel="stylesheet" href="./assets/plugins/fontawesome-free-6.1.1-web/css/all.css">
+<link rel="stylesheet" href="./assets/plugins/fontawesome-free-6.1.1-web/css/all.min.css">
+
+<link href="assets/plugins/web-fonts/icons.css" rel="stylesheet" />
+<link href="assets/plugins/web-fonts/font-awesome/font-awesome.min.css" rel="stylesheet">
+<link href="assets/plugins/web-fonts/plugin.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    
+<!-- audio -->
+<div class="page3 ">
+    <div class="row">
+        <div class=" col-xl-12 col-md-6 col-sm-12 row">
+            <div class=" col-xl-4 col-md-12 col-sm-12">
+
+                <div class="form-group">
+                    <label class="form-label">Request Number</label>
+                    <input type="text" class="form-control" id="#" value="#001" disabled>
+                </div>
+            </div>
+        </div>
+      
+        
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">Counter Code</label>
+                <input type="text" class="form-control" id="#" value="ABSC1" >
+            </div>
+        </div>
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">Counter Name</label>
+                <input type="text" class="form-control" id="#" value="TSSC1" >
+            </div>
+        </div>
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">City</label>
+                <input type="text" class="form-control" id="#" value="Gurugram" >
+            </div>
+        </div>
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">State</label>
+                <input type="text" class="form-control" id="#" value="Haryana" >
+            </div>
+        </div>
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">Hiring Count</label>
+                <input type="text" class="form-control" id="#" value="50">
+            </div>
+        </div>
+        <div class=" col-xl-4 col-md-6 col-sm-12">
+
+            <div class="form-group">
+                <label class="form-label">Category</label>
+                <input type="text" class="form-control" id="#" value="TS" >
+            </div>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-xl-6">
+            <label for="formFile" class="form-label">Attach Voice Note</label>
+            <div class="form-group d-flex align-items-center">
+                <input type="file" onchange="previewFile()" accept="audio/*">
+                <audio controls src=""></audio>
+            </div>
+          
+            
+            <div id="result"></div>
+        </div>
+        <div class=" col-xl-3 col-md-4 col-sm-12 page3-upload">
+            <div class="mb-3">
+                <label for="formFile" class="form-label  ">Upload Resume</label>
+                <input class="form-control my-upload" type="file" id="formFile">
+              </div>
+        </div>
+    </div>
+    <div>
+        <table class="table">
+  <thead>
+    <tr>
+        <th>Candiate Name</th>
+        <th>Total Experience</th>
+        <th>Last Organisation Name</th>
+        <th>Experience In Last Organisation</th>
+        <th>Salary Expectation</th>
+       
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td> <input type="text" class="form-control" id="#" value="ABC" > </td>
+        <td> <input type="text" class="form-control" id="#" value="2" ></td>
+        <td> <input type="text" class="form-control" id="#" value="BSL" ></td>
+        <td> <input type="text" class="form-control" id="#" value="1" ></td>
+        <td> <input type="text" class="form-control" id="#" value="20000" ></td>
+    </tr>
+  </tbody>
+        </table>
+    </div>
+    
+    <div class="d-flex justify-content-end">
+        <button class="add-resume"><span><i class="fa-solid fa-plus"></i></span> Add Resume</button>
+    </div>
+   
+</div>
+
+<!-- partial -->
+<script>
+      function previewFile() {
+  var preview = document.querySelector('audio');
+  var file    = document.querySelector('input[type=file]').files[0];
+  var reader  = new FileReader();
+
+  reader.addEventListener("load", function () {
+    preview.src = reader.result;
+  }, false);
+
+  if (file) {
+    reader.readAsDataURL(file);
+  }
+}
+</script>
+
+<script src="./assets/plugins/fontawesome-free-6.1.1-web/js/all.js"></script>
+<script src="./assets/plugins/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+
+
+<script src="assets/plugins/bootstrap/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+</body>
+</html>
